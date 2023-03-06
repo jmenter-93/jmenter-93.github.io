@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: March 6, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jordan Menter" />
+
+
+
+
+
+  
+
+<meta name="description" content="About a year and a half ago, I was in a graduate course in computing and ethics, one of the last for my Master’s degree. Simultaneously I was working full-time as a junior data scientist, so I had plenty of technical, pseudo-software-engineering stuff on the brain (or as much as a data scientist can have)." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jmenter-93.github.io/post/ethical-debt/" />
+<link rel="canonical" href="https://jmenter-93.github.io/post/ethical-debt/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jmenter-93.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Welcome!" />
+<meta property="og:url" content="https://jmenter-93.github.io/post/ethical-debt/" />
+<meta property="og:title" content="&#34;Ethical Debt&#34;, Power Dynamics, and Fairness | Welcome!" />
+<meta property="og:description" content="About a year and a half ago, I was in a graduate course in computing and ethics, one of the last for my Master’s degree. Simultaneously I was working full-time as a junior data scientist, so I had plenty of technical, pseudo-software-engineering stuff on the brain (or as much as a data scientist can have)." /><meta property="og:image" content="https://jmenter-93.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2020-04-28T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2020-04-28T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jmenter-93.github.io/post/ethical-debt/"
+  },
+  "headline": "\"Ethical Debt\", Power Dynamics, and Fairness",
+  
+  "datePublished": "2020-04-28T00:00:00Z",
+  "dateModified": "2020-04-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jordan Menter"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Welcome!",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jmenter-93.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "About a year and a half ago, I was in a graduate course in computing and ethics, one of the last for my Master’s degree. Simultaneously I was working full-time as a junior data scientist, so I had plenty of technical, pseudo-software-engineering stuff on the brain (or as much as a data scientist can have)."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>&#34;Ethical Debt&#34;, Power Dynamics, and Fairness | Welcome!</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2c7a2fbf66bbe9e7de3b13bede295ddf" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Welcome!</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Welcome!</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/jmenter_93" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>&#34;Ethical Debt&#34;, Power Dynamics, and Fairness</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 28, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>About a year and a half ago, I was in a graduate course in computing and ethics, one of the last for my Master’s degree. Simultaneously I was working full-time as a junior data scientist, so I had plenty of technical, pseudo-software-engineering stuff on the brain (or <a href="https://twitter.com/kareem_carr/status/1235579853606273024">as much as a data scientist can have</a>). And so I was thinking about ethics for this class, but among other things, I was also thinking about technical debt for my job.</p>
+<p>Technical debt is a well-known and well-feared concept for anyone who works on any kind of technology team (although it’s usually used in reference to software development). In short, it goes like this: we choose an easy solution now, instead of a better solution that would take longer, and now we’re in “debt” because we have to do additional work to get this easy solution up to par. Maybe we were on a deadline, or we needed a quick solution, so we cut corners here, we rushed there, and suddenly we’re sitting on hundreds of lines of code that desperately needs to be refactored from the ground up.</p>
+<p>I can’t help but see an analog to this in many corporations’ responses to increased calls for algorithmic fairness. The mapping isn’t exactly one-to-one, of course – technical debt can have non-malicious causes, whereas I’ll argue below that what I’m calling “ethical debt” is informed by longstanding systems of oppression – but I like using it as a framework for thinking about how normative, capitalistic institutions are “ingesting” increased calls for algorithmic fairness.</p>
+<p>In part, the AI ethics literature has moved from proposing various definitions of algorithmic fairness towards asking questions of how these findings can be incorporated into day-to-day practices. A valuable question that researchers are asking centers on the <em>how</em> – how can we incentivize, persuade, encourage practitioners to develop ethical AI solutions? I think a just-as-important question is the <em>can</em>: that is, can these calls for ethical AI go up against normative business goals and priorities, when the latter can be the result of longstanding systems of oppression?</p>
+<p>The problem is thus deeper than run-of-the-mill technical debt, of course - we are not dealing with hundreds of lines of code, but rather hundreds of years of capitalism, white supremacy, ableism, and classism that has informed who has the power, who makes the decisions regarding these systems, who benefits from them, and who is harmed by them.</p>
+<p>Many scholars have already eloquently pointed out how this manifests in the tech space - that new modern technical solutions are simply reiterations of old prejudices, and different framings are required <span class="citation">(<a href="#ref-barabasFAT2018" role="doc-biblioref">Barabas et al. 2018</a>; <a href="#ref-benjamin2019race" role="doc-biblioref">Benjamin 2019</a>; <a href="#ref-eubanks2018" role="doc-biblioref">Eubanks 2018</a>)</span>. But what about technical solutions attempting to be “ethical” or “fair”? How far can they go to mitigate this “ethical debt”? How deeply inscribed are these “debts” in corporations that (for PR purposes or otherwise) are trying to implement “fair” or “ethical” tech pipelines? What parts of these “debts” are immutable despite implementations of “fair” tech solutions?</p>
+<div id="building-on-existing-findings" class="section level3">
+<h3>Building on Existing Findings</h3>
+<p>Some impressive scholarship has already been published that gets at the challenges of how to incentivize and allow for development of ethical AI systems in the corporate setting. <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span> propose checklists to act as guideposts for this development, analogous to what is done in other fields like medicine. The authors find that AI fairness efforts are “often the result of ad-hoc processes, driven by passionate individual advocates”; moreover, organizational culture “can inhibit the efficacy of these efforts.” They note a tension between “moving fast” to ship a product versus checks and balances to consider fairness, an observation echoed by previous work in the privacy space. Their work is joined by others who, from a variety of framings, formalize how inroads to ethical AI may be deployed and enforced <span class="citation">(<a href="#ref-beutel2019practices" role="doc-biblioref">Beutel et al. 2019</a>; <a href="#ref-greene2019better" role="doc-biblioref">Greene, Hoffman, and Stark 2019</a>)</span>.</p>
+<p>I have to credit <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span> for acknowledging the sociocultural <em>and</em> technical factors involved in enforcing ethical development. They rightfully point out that some prior work in checklists have assumed that technical solutions, implemented at the individual-level, can address the operationalization of ethical AI. A key finding of <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span> is that participants felt that AI checklists “must be supported by organizational culture, customizable by teams, and integrated into organizational goals and priorities…” The authors reference a lack of upstream propagation of organizational change to prioritize AI fairness.</p>
+<p>These findings reveal some interesting questions, namely, can we always assume that the “core purposes” of these organizations can easily be mapped into an “ethical” space by the correct application of tools to incentivize ethical AI? This mapping itself is non-trivial and deeply complex, with many organizational, cultural, and technical moving parts. So, when it comes to bending the moral arc of the universe towards justice, how far upstream in an organization can ethical AI practices go? Even assuming “perfect adoption” by practitioners, will it be enough to repay an institution’s “ethical debt”?</p>
+</div>
+<div id="some-formalities" class="section level3">
+<h3>Some Formalities</h3>
+<p>Answering these questions necessitates considering the power dynamics at play here.</p>
+<p>But first I’ll start by pointing out that these questions posited at the end of the previous section are not exactly new ones. Similar concerns have been brought up in the spaces of labor organizing <span class="citation">(<a href="#ref-Faraj2018WorkingAO" role="doc-biblioref">Faraj, Pachidi, and Sayegh 2018</a>)</span>. Within the AI ethics space specifically, we see work on how interactions between people and models influence human decisions, both specifically for risk assessments <span class="citation">(<a href="#ref-greenchen2019loop" role="doc-biblioref">Green and Chen 2019a</a>)</span> and for machine learning in general <span class="citation">(<a href="#ref-greenchen2019algolooplimits" role="doc-biblioref">Green and Chen 2019b</a>)</span>. Finally, we have findings that point to how modern corporations struggle to close the gap between “doing ethics” and conceptions of “ethics” <span class="citation">(<a href="#ref-mossmetcalf2019tech" role="doc-biblioref">Metcalf and Moss 2019</a>)</span>.</p>
+<p>So what concepts are at play here? Winner posits that artifacts have politics <span class="citation">(<a href="#ref-winner1980artifacts" role="doc-biblioref">Winner 1980</a>)</span>. I don’t think it’s so much of a leap to argue that organizational structures have politics as well, and certain structures are more liable to “re-inscribe” traditional patterns of power. My literature review here is certainly incomplete (and I appreciate any and all pointers around this space), but based on anecdotal experience and the scholarship of many others more brilliant than me, I hypothesize some general characteristics of institutions whose “ethical debt” may not be paid off in full by ethical AI systems. Some of these may stand up to further scrutiny, and others may not.</p>
+<div id="exchangeability" class="section level4">
+<h4>“Exchangeability”</h4>
+<p>No, not like <a href="https://en.wikipedia.org/wiki/Exchangeable_random_variables">the concept in statistics</a>, not really. Here, I just use this as an umbrella term to capture the concept that technical solutions can be re-implementations of ideas, priorities, prejudices, etc. held by their creators – discussed extensively outside of the domain of algorithmic fairness <span class="citation">(<a href="#ref-benjamin2019race" role="doc-biblioref">Benjamin 2019</a>; <a href="#ref-eubanks2018" role="doc-biblioref">Eubanks 2018</a>)</span>.</p>
+<p>I hypothesize that for institutions implementing technical solutions, if there is a certain amount of “exchangeability” or “equivalence” between (i) the “core mechanisms” of the institution, and (ii) said technical solutions, then certain ethical interventions implemented on (ii) will not impact (i). I use a lot of qualifiers in this hypothesis because, of course, I don’t currently have results on hand to back it up – but I think it’s an idea worth investigating, with respect to the efficacy of interventions concerning the development of ethical AI.</p>
+<p>This gets at the <em>can</em> of encouraging ethical AI. If interventions focus solely on the lower-level technical implementations, it’s likely all too easy to leave foundational logics unchallenged entirely. This is where work that touches on how proponents of ethical AI propagate “upstream” in an institution is important.</p>
+</div>
+<div id="power-and-culture" class="section level4">
+<h4>Power and Culture</h4>
+<p>As mentioned above, some findings from <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span> point to organizational culture as being necessary for AI ethics checklists to be effectively implemented (from the point of view of the worker). Here I’ll try to further define two aspects of organizational culture that I also hypothesize will impact the efficacy of interventions concerning the development of ethical AI. Again my literature review is lacking here, but I do like the exercise of getting the ideas down.</p>
+<ul>
+<li>The Worker</li>
+</ul>
+<p>Again pointing to findings from <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span>, it’s clear that some workers see that they have a choice when it comes to enforcing ethical development, but that this choice – or the space that they can operate in – is incredibly limited. I want to capture this using the concept of <em>expectation</em> - both expectation written into underlying (algorithmic) logics to reflect certain priorities, and expectation of a worker to follow through on their responsibilities to implement these logics. Very neoliberal.</p>
+<ul>
+<li>The Institution</li>
+</ul>
+<p>Finally, let’s take a step back and look at the larger apparatus at play here. An institution with a lot of power – <em>cultural</em> or <em>political</em> capital behind their existence and their “core purposes” – is probably going to have an easier time “weathering the storm” that is AI ethics, or manipulating ethical interventions to do the bare minimum for PR. I admit that this is a pretty pessimistic take on my part. Perhaps more can be done to reach “across the aisle” than what I’m realizing.</p>
+</div>
+</div>
+<div id="towards-something-concrete" class="section level3">
+<h3>Towards Something Concrete</h3>
+<p>So far I’ve failed to suggest a coherent framework for investigating the questions outlined in this post. I’ll take a stab at that here.</p>
+<p>To assess concepts like <em>exchangeability</em> and <em>expectation</em>, I’d propose something human-centered and generally interview-driven. In fact, <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span> has made some very valuable headway into this. What’s additionally necessary in work like this is the analysis of power differentials, which suggests we look to feminist scholarship for methods and techniques, particularly tools developed by Black feminist scholars and activists. Feminist scholarship calls for tracing the data to its “source” <span class="citation">(<a href="#ref-kleindignazio2020df" role="doc-biblioref">D’Ignazio and Klein 2020</a>)</span> – I argue that we should also trace back to the “core purposes” of the institution, and ask ourselves what asymmetric power relations this institution is shoring up.</p>
+<p>Finally, I eagerly look forward to any follow-up work related to <span class="citation">Madaio et al. (<a href="#ref-madaio2020co-designing" role="doc-biblioref">2020</a>)</span>. Work in this space is necessary, especially (I’d argue) extensive, human-centered studies on these ethical interventions and how they affect (or do not affect) organizational power dynamics. Additionally, I want restate the importance of participatory design practices in this space, especially those that directly involve marginalized stakeholders <span class="citation">(<a href="#ref-costanza2020design" role="doc-biblioref">Costanza-Chock 2020</a>; <a href="#ref-martin2020participatory" role="doc-biblioref">Martin Jr. et al. 2020</a>)</span>. If you’re interested in further discussion on truly equitable design practices that work towards justice, I suggest starting there.</p>
+<p>This got very long and is very half-baked, so if you got this far, thanks for reading! In an eventual Part II, I’ll discuss more about some real-world examples of this “ethical debt”, and where certain ethical technological solutions may or may not be sufficient to “pay off” this debt.</p>
+</div>
+<div id="references" class="section level3 unnumbered">
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-barabasFAT2018" class="csl-entry">
+Barabas, Chelsea, Madars Virza, Karthik Dinakar, Joichi Ito, and Jonathan Zittrain. 2018. <span>“Interventions over Predictions: Reframing the Ethical Debate for Actuarial Risk Assessment.”</span> In <em><span>FAT</span></em>, 81:62–76. Proceedings of Machine Learning Research. <span>PMLR</span>.
+</div>
+<div id="ref-benjamin2019race" class="csl-entry">
+Benjamin, Ruha. 2019. <span>“<span class="nocase">Race After Technology: Abolitionist Tools for the New Jim Code</span>.”</span> <em>Social Forces</em>, December. <a href="https://doi.org/10.1093/sf/soz162">https://doi.org/10.1093/sf/soz162</a>.
+</div>
+<div id="ref-beutel2019practices" class="csl-entry">
+Beutel, Alex, Jilin Chen, Tulsee Doshi, Hai Qian, Allison Woodruff, Christine Luu, Pierre Kreitmann, Jonathan Bischof, and Ed H. Chi. 2019. <span>“Putting Fairness Principles into Practice: Challenges, Metrics, and Improvements.”</span> In <em>Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society</em>, 453–59. AIES ’19. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3306618.3314234">https://doi.org/10.1145/3306618.3314234</a>.
+</div>
+<div id="ref-costanza2020design" class="csl-entry">
+Costanza-Chock, S. 2020. <em>Design Justice: Community-Led Practices to Build the Worlds We Need</em>. Information Policy. MIT Press.
+</div>
+<div id="ref-kleindignazio2020df" class="csl-entry">
+D’Ignazio, Catherine, and Lauren F. Klein. 2020. <em>Data Feminism</em>. MIT Press.
+</div>
+<div id="ref-eubanks2018" class="csl-entry">
+Eubanks, Virginia. 2018. <em>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor</em>. USA: St. Martin’s Press, Inc.
+</div>
+<div id="ref-Faraj2018WorkingAO" class="csl-entry">
+Faraj, Samer, Stella Pachidi, and Karla Sayegh. 2018. <span>“Working and Organizing in the Age of the Learning Algorithm.”</span> <em>Inf. Organ.</em> 28: 62–70.
+</div>
+<div id="ref-greenchen2019loop" class="csl-entry">
+Green, Ben, and Yiling Chen. 2019a. <span>“Disparate Interactions: An Algorithm-in-the-Loop Analysis of Fairness in Risk Assessments.”</span> In <em>Proceedings of the Conference on Fairness, Accountability, and Transparency</em>, 90–99. FAT* ’19. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3287560.3287563">https://doi.org/10.1145/3287560.3287563</a>.
+</div>
+<div id="ref-greenchen2019algolooplimits" class="csl-entry">
+———. 2019b. <span>“The Principles and Limits of Algorithm-in-the-Loop Decision Making.”</span> <em>Proc. ACM Hum.-Comput. Interact.</em> 3 (CSCW). <a href="https://doi.org/10.1145/3359152">https://doi.org/10.1145/3359152</a>.
+</div>
+<div id="ref-greene2019better" class="csl-entry">
+Greene, Daniel, Anna Lauren Hoffman, and Luke Stark. 2019. <span>“Better, Nicer, Clearer, Fairer.”</span> In <em><span>FAT</span></em>, 2122–31. Proceedings of the 52nd Hawaii International Conference on System Sciences (HICSS).
+</div>
+<div id="ref-madaio2020co-designing" class="csl-entry">
+Madaio, Michael, Luke Stark, Jennifer Wortman Vaughan, and Hanna Wallach. 2020. <span>“Co-Designing Checklists to Understand Organizational Challenges and Opportunities Around Fairness in AI.”</span> In <em>CHI Conference on Human Factors in Computing Systems</em>. ACM.
+</div>
+<div id="ref-martin2020participatory" class="csl-entry">
+Martin Jr., D., V. Prabhakaran, J. Kuhlberg, A. Smart, and W. S. &amp; Issac. 2020. <span>“Participatory Problem Formulation for Fairer Machine Learning Through Community Based System Dynamics.”</span>
+</div>
+<div id="ref-mossmetcalf2019tech" class="csl-entry">
+Metcalf, Jacob, and Emanuel Moss. 2019. <span>“The Ethical Dilemma at the Heart of Big Tech Companies.”</span> <em>Harvard Business Review</em>.
+</div>
+<div id="ref-winner1980artifacts" class="csl-entry">
+Winner, Langdon. 1980. <span>“Do Artifacts Have Politics?”</span> <em>Daedalus</em> 109 (1): 121–36.
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/research/">research</a>
+  
+  <a class="badge badge-light" href="/tag/big-tech/">big tech</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F&amp;text=%22Ethical&#43;Debt%22%2C&#43;Power&#43;Dynamics%2C&#43;and&#43;Fairness" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F&amp;t=%22Ethical&#43;Debt%22%2C&#43;Power&#43;Dynamics%2C&#43;and&#43;Fairness" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=%22Ethical%20Debt%22%2C%20Power%20Dynamics%2C%20and%20Fairness&amp;body=https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F&amp;title=%22Ethical&#43;Debt%22%2C&#43;Power&#43;Dynamics%2C&#43;and&#43;Fairness" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%22Ethical&#43;Debt%22%2C&#43;Power&#43;Dynamics%2C&#43;and&#43;Fairness%20https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjmenter-93.github.io%2Fpost%2Fethical-debt%2F&amp;title=%22Ethical&#43;Debt%22%2C&#43;Power&#43;Dynamics%2C&#43;and&#43;Fairness" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jmenter-93.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hub66e96a67777f82f5976eb644e81f16b_6740_270x270_fill_q75_lanczos_center.jpg" alt="Jordan Menter"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jmenter-93.github.io/">Jordan Menter</a></h5>
+      <h6 class="card-subtitle">Data Scientist, Researcher, Writer</h6>
+      <p class="card-text">I am a data scientist, a researcher, and a writer currently based in Amherst, MA.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/jmenter_93" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/jmenter-93" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jordanmenter/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

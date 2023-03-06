@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://jmenter-93.github.io/sitemap.xml

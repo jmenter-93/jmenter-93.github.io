@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about me | Welcome!</title>
+    <link>https://jmenter-93.github.io/tag/about-me/</link>
+      <atom:link href="https://jmenter-93.github.io/tag/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <description>about me</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jmenter-93.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>about me</title>
+      <link>https://jmenter-93.github.io/tag/about-me/</link>
+    </image>
+    
+    <item>
+      <title>Situating Myself</title>
+      <link>https://jmenter-93.github.io/post/situating-myself/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/post/situating-myself/</guid>
+      <description>
+
+
+&lt;p&gt;This public-facing platform is a record not just of my professional and academic activities but also my thought-processes, opinions, and knowledge. All of this is situated in the experiences and perspectives of the knower, i.e. myself. Therefore it is prudent for me to locate myself and acknowledge my privilege and power for any readers of my content. This is done in the tradition of feminist standpoint theory &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-harding2004feminist&#34; role=&#34;doc-biblioref&#34;&gt;Harding 2004&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I am a white, queer, cisgender woman who is chronically ill and disabled, and was raised by a middle-class family in the United States. I currently live on land stolen from the Wabanaki Confederacy, Nipmuck, and Pocumtuc peoples. I attended Smith College on a scholarship for my undergraduate studies, and then the University of Massachusetts, Amherst for graduate studies, where my tuition was paid for by my employer at the time. I thus gained access to academic privilege at relatively low financial cost to myself. These experiences also connected me with mentors and collaborators with whom I still work to this day. Systems of whiteness, cisnormativity, capitalism, and classism have greatly benefited me on my journey; at the same time, I am oppressed by systems of patriarchy and ableism.&lt;/p&gt;
+&lt;p&gt;My position in these systems shapes my approaches to my work, especially in academic spaces. Simultaneously, I try to use my standpoint and power to support and center marginalized communities. I consistently try to reflect on the power and privilege to which I have access, and whether or not I am effectively using it to benefit those without the same access; to this end, I welcome feedback and criticism regarding all aspects of my work including my methods, framings, sources, etc.&lt;/p&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-harding2004feminist&#34; class=&#34;csl-entry&#34;&gt;
+Harding, S. G. 2004. &lt;em&gt;The Feminist Standpoint Theory Reader: Intellectual and Political Controversies&lt;/em&gt;. The Feminist Standpoint Theory Reader: Intellectual and Political Controversies. Routledge.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

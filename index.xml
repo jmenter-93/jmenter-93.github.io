@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome!</title>
+    <link>https://jmenter-93.github.io/</link>
+      <atom:link href="https://jmenter-93.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Welcome!</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jmenter-93.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Welcome!</title>
+      <link>https://jmenter-93.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://jmenter-93.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Situating Myself</title>
+      <link>https://jmenter-93.github.io/post/situating-myself/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/post/situating-myself/</guid>
+      <description>
+
+
+&lt;p&gt;This public-facing platform is a record not just of my professional and academic activities but also my thought-processes, opinions, and knowledge. All of this is situated in the experiences and perspectives of the knower, i.e. myself. Therefore it is prudent for me to locate myself and acknowledge my privilege and power for any readers of my content. This is done in the tradition of feminist standpoint theory &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-harding2004feminist&#34; role=&#34;doc-biblioref&#34;&gt;Harding 2004&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I am a white, queer, cisgender woman who is chronically ill and disabled, and was raised by a middle-class family in the United States. I currently live on land stolen from the Wabanaki Confederacy, Nipmuck, and Pocumtuc peoples. I attended Smith College on a scholarship for my undergraduate studies, and then the University of Massachusetts, Amherst for graduate studies, where my tuition was paid for by my employer at the time. I thus gained access to academic privilege at relatively low financial cost to myself. These experiences also connected me with mentors and collaborators with whom I still work to this day. Systems of whiteness, cisnormativity, capitalism, and classism have greatly benefited me on my journey; at the same time, I am oppressed by systems of patriarchy and ableism.&lt;/p&gt;
+&lt;p&gt;My position in these systems shapes my approaches to my work, especially in academic spaces. Simultaneously, I try to use my standpoint and power to support and center marginalized communities. I consistently try to reflect on the power and privilege to which I have access, and whether or not I am effectively using it to benefit those without the same access; to this end, I welcome feedback and criticism regarding all aspects of my work including my methods, framings, sources, etc.&lt;/p&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-harding2004feminist&#34; class=&#34;csl-entry&#34;&gt;
+Harding, S. G. 2004. &lt;em&gt;The Feminist Standpoint Theory Reader: Intellectual and Political Controversies&lt;/em&gt;. The Feminist Standpoint Theory Reader: Intellectual and Political Controversies. Routledge.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>&#34;Ethical Debt&#34;, Power Dynamics, and Fairness</title>
+      <link>https://jmenter-93.github.io/post/ethical-debt/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/post/ethical-debt/</guid>
+      <description>
+
+
+&lt;p&gt;About a year and a half ago, I was in a graduate course in computing and ethics, one of the last for my Master’s degree. Simultaneously I was working full-time as a junior data scientist, so I had plenty of technical, pseudo-software-engineering stuff on the brain (or &lt;a href=&#34;https://twitter.com/kareem_carr/status/1235579853606273024&#34;&gt;as much as a data scientist can have&lt;/a&gt;). And so I was thinking about ethics for this class, but among other things, I was also thinking about technical debt for my job.&lt;/p&gt;
+&lt;p&gt;Technical debt is a well-known and well-feared concept for anyone who works on any kind of technology team (although it’s usually used in reference to software development). In short, it goes like this: we choose an easy solution now, instead of a better solution that would take longer, and now we’re in “debt” because we have to do additional work to get this easy solution up to par. Maybe we were on a deadline, or we needed a quick solution, so we cut corners here, we rushed there, and suddenly we’re sitting on hundreds of lines of code that desperately needs to be refactored from the ground up.&lt;/p&gt;
+&lt;p&gt;I can’t help but see an analog to this in many corporations’ responses to increased calls for algorithmic fairness. The mapping isn’t exactly one-to-one, of course – technical debt can have non-malicious causes, whereas I’ll argue below that what I’m calling “ethical debt” is informed by longstanding systems of oppression – but I like using it as a framework for thinking about how normative, capitalistic institutions are “ingesting” increased calls for algorithmic fairness.&lt;/p&gt;
+&lt;p&gt;In part, the AI ethics literature has moved from proposing various definitions of algorithmic fairness towards asking questions of how these findings can be incorporated into day-to-day practices. A valuable question that researchers are asking centers on the &lt;em&gt;how&lt;/em&gt; – how can we incentivize, persuade, encourage practitioners to develop ethical AI solutions? I think a just-as-important question is the &lt;em&gt;can&lt;/em&gt;: that is, can these calls for ethical AI go up against normative business goals and priorities, when the latter can be the result of longstanding systems of oppression?&lt;/p&gt;
+&lt;p&gt;The problem is thus deeper than run-of-the-mill technical debt, of course - we are not dealing with hundreds of lines of code, but rather hundreds of years of capitalism, white supremacy, ableism, and classism that has informed who has the power, who makes the decisions regarding these systems, who benefits from them, and who is harmed by them.&lt;/p&gt;
+&lt;p&gt;Many scholars have already eloquently pointed out how this manifests in the tech space - that new modern technical solutions are simply reiterations of old prejudices, and different framings are required &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-barabasFAT2018&#34; role=&#34;doc-biblioref&#34;&gt;Barabas et al. 2018&lt;/a&gt;; &lt;a href=&#34;#ref-benjamin2019race&#34; role=&#34;doc-biblioref&#34;&gt;Benjamin 2019&lt;/a&gt;; &lt;a href=&#34;#ref-eubanks2018&#34; role=&#34;doc-biblioref&#34;&gt;Eubanks 2018&lt;/a&gt;)&lt;/span&gt;. But what about technical solutions attempting to be “ethical” or “fair”? How far can they go to mitigate this “ethical debt”? How deeply inscribed are these “debts” in corporations that (for PR purposes or otherwise) are trying to implement “fair” or “ethical” tech pipelines? What parts of these “debts” are immutable despite implementations of “fair” tech solutions?&lt;/p&gt;
+&lt;div id=&#34;building-on-existing-findings&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Building on Existing Findings&lt;/h3&gt;
+&lt;p&gt;Some impressive scholarship has already been published that gets at the challenges of how to incentivize and allow for development of ethical AI systems in the corporate setting. &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; propose checklists to act as guideposts for this development, analogous to what is done in other fields like medicine. The authors find that AI fairness efforts are “often the result of ad-hoc processes, driven by passionate individual advocates”; moreover, organizational culture “can inhibit the efficacy of these efforts.” They note a tension between “moving fast” to ship a product versus checks and balances to consider fairness, an observation echoed by previous work in the privacy space. Their work is joined by others who, from a variety of framings, formalize how inroads to ethical AI may be deployed and enforced &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-beutel2019practices&#34; role=&#34;doc-biblioref&#34;&gt;Beutel et al. 2019&lt;/a&gt;; &lt;a href=&#34;#ref-greene2019better&#34; role=&#34;doc-biblioref&#34;&gt;Greene, Hoffman, and Stark 2019&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I have to credit &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; for acknowledging the sociocultural &lt;em&gt;and&lt;/em&gt; technical factors involved in enforcing ethical development. They rightfully point out that some prior work in checklists have assumed that technical solutions, implemented at the individual-level, can address the operationalization of ethical AI. A key finding of &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; is that participants felt that AI checklists “must be supported by organizational culture, customizable by teams, and integrated into organizational goals and priorities…” The authors reference a lack of upstream propagation of organizational change to prioritize AI fairness.&lt;/p&gt;
+&lt;p&gt;These findings reveal some interesting questions, namely, can we always assume that the “core purposes” of these organizations can easily be mapped into an “ethical” space by the correct application of tools to incentivize ethical AI? This mapping itself is non-trivial and deeply complex, with many organizational, cultural, and technical moving parts. So, when it comes to bending the moral arc of the universe towards justice, how far upstream in an organization can ethical AI practices go? Even assuming “perfect adoption” by practitioners, will it be enough to repay an institution’s “ethical debt”?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;some-formalities&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Some Formalities&lt;/h3&gt;
+&lt;p&gt;Answering these questions necessitates considering the power dynamics at play here.&lt;/p&gt;
+&lt;p&gt;But first I’ll start by pointing out that these questions posited at the end of the previous section are not exactly new ones. Similar concerns have been brought up in the spaces of labor organizing &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Faraj2018WorkingAO&#34; role=&#34;doc-biblioref&#34;&gt;Faraj, Pachidi, and Sayegh 2018&lt;/a&gt;)&lt;/span&gt;. Within the AI ethics space specifically, we see work on how interactions between people and models influence human decisions, both specifically for risk assessments &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-greenchen2019loop&#34; role=&#34;doc-biblioref&#34;&gt;Green and Chen 2019a&lt;/a&gt;)&lt;/span&gt; and for machine learning in general &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-greenchen2019algolooplimits&#34; role=&#34;doc-biblioref&#34;&gt;Green and Chen 2019b&lt;/a&gt;)&lt;/span&gt;. Finally, we have findings that point to how modern corporations struggle to close the gap between “doing ethics” and conceptions of “ethics” &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-mossmetcalf2019tech&#34; role=&#34;doc-biblioref&#34;&gt;Metcalf and Moss 2019&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So what concepts are at play here? Winner posits that artifacts have politics &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-winner1980artifacts&#34; role=&#34;doc-biblioref&#34;&gt;Winner 1980&lt;/a&gt;)&lt;/span&gt;. I don’t think it’s so much of a leap to argue that organizational structures have politics as well, and certain structures are more liable to “re-inscribe” traditional patterns of power. My literature review here is certainly incomplete (and I appreciate any and all pointers around this space), but based on anecdotal experience and the scholarship of many others more brilliant than me, I hypothesize some general characteristics of institutions whose “ethical debt” may not be paid off in full by ethical AI systems. Some of these may stand up to further scrutiny, and others may not.&lt;/p&gt;
+&lt;div id=&#34;exchangeability&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;“Exchangeability”&lt;/h4&gt;
+&lt;p&gt;No, not like &lt;a href=&#34;https://en.wikipedia.org/wiki/Exchangeable_random_variables&#34;&gt;the concept in statistics&lt;/a&gt;, not really. Here, I just use this as an umbrella term to capture the concept that technical solutions can be re-implementations of ideas, priorities, prejudices, etc. held by their creators – discussed extensively outside of the domain of algorithmic fairness &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-benjamin2019race&#34; role=&#34;doc-biblioref&#34;&gt;Benjamin 2019&lt;/a&gt;; &lt;a href=&#34;#ref-eubanks2018&#34; role=&#34;doc-biblioref&#34;&gt;Eubanks 2018&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I hypothesize that for institutions implementing technical solutions, if there is a certain amount of “exchangeability” or “equivalence” between (i) the “core mechanisms” of the institution, and (ii) said technical solutions, then certain ethical interventions implemented on (ii) will not impact (i). I use a lot of qualifiers in this hypothesis because, of course, I don’t currently have results on hand to back it up – but I think it’s an idea worth investigating, with respect to the efficacy of interventions concerning the development of ethical AI.&lt;/p&gt;
+&lt;p&gt;This gets at the &lt;em&gt;can&lt;/em&gt; of encouraging ethical AI. If interventions focus solely on the lower-level technical implementations, it’s likely all too easy to leave foundational logics unchallenged entirely. This is where work that touches on how proponents of ethical AI propagate “upstream” in an institution is important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;power-and-culture&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Power and Culture&lt;/h4&gt;
+&lt;p&gt;As mentioned above, some findings from &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; point to organizational culture as being necessary for AI ethics checklists to be effectively implemented (from the point of view of the worker). Here I’ll try to further define two aspects of organizational culture that I also hypothesize will impact the efficacy of interventions concerning the development of ethical AI. Again my literature review is lacking here, but I do like the exercise of getting the ideas down.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Worker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again pointing to findings from &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;, it’s clear that some workers see that they have a choice when it comes to enforcing ethical development, but that this choice – or the space that they can operate in – is incredibly limited. I want to capture this using the concept of &lt;em&gt;expectation&lt;/em&gt; - both expectation written into underlying (algorithmic) logics to reflect certain priorities, and expectation of a worker to follow through on their responsibilities to implement these logics. Very neoliberal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Institution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, let’s take a step back and look at the larger apparatus at play here. An institution with a lot of power – &lt;em&gt;cultural&lt;/em&gt; or &lt;em&gt;political&lt;/em&gt; capital behind their existence and their “core purposes” – is probably going to have an easier time “weathering the storm” that is AI ethics, or manipulating ethical interventions to do the bare minimum for PR. I admit that this is a pretty pessimistic take on my part. Perhaps more can be done to reach “across the aisle” than what I’m realizing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;towards-something-concrete&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Towards Something Concrete&lt;/h3&gt;
+&lt;p&gt;So far I’ve failed to suggest a coherent framework for investigating the questions outlined in this post. I’ll take a stab at that here.&lt;/p&gt;
+&lt;p&gt;To assess concepts like &lt;em&gt;exchangeability&lt;/em&gt; and &lt;em&gt;expectation&lt;/em&gt;, I’d propose something human-centered and generally interview-driven. In fact, &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt; has made some very valuable headway into this. What’s additionally necessary in work like this is the analysis of power differentials, which suggests we look to feminist scholarship for methods and techniques, particularly tools developed by Black feminist scholars and activists. Feminist scholarship calls for tracing the data to its “source” &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-kleindignazio2020df&#34; role=&#34;doc-biblioref&#34;&gt;D’Ignazio and Klein 2020&lt;/a&gt;)&lt;/span&gt; – I argue that we should also trace back to the “core purposes” of the institution, and ask ourselves what asymmetric power relations this institution is shoring up.&lt;/p&gt;
+&lt;p&gt;Finally, I eagerly look forward to any follow-up work related to &lt;span class=&#34;citation&#34;&gt;Madaio et al. (&lt;a href=&#34;#ref-madaio2020co-designing&#34; role=&#34;doc-biblioref&#34;&gt;2020&lt;/a&gt;)&lt;/span&gt;. Work in this space is necessary, especially (I’d argue) extensive, human-centered studies on these ethical interventions and how they affect (or do not affect) organizational power dynamics. Additionally, I want restate the importance of participatory design practices in this space, especially those that directly involve marginalized stakeholders &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-costanza2020design&#34; role=&#34;doc-biblioref&#34;&gt;Costanza-Chock 2020&lt;/a&gt;; &lt;a href=&#34;#ref-martin2020participatory&#34; role=&#34;doc-biblioref&#34;&gt;Martin Jr. et al. 2020&lt;/a&gt;)&lt;/span&gt;. If you’re interested in further discussion on truly equitable design practices that work towards justice, I suggest starting there.&lt;/p&gt;
+&lt;p&gt;This got very long and is very half-baked, so if you got this far, thanks for reading! In an eventual Part II, I’ll discuss more about some real-world examples of this “ethical debt”, and where certain ethical technological solutions may or may not be sufficient to “pay off” this debt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level3 unnumbered&#34;&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-barabasFAT2018&#34; class=&#34;csl-entry&#34;&gt;
+Barabas, Chelsea, Madars Virza, Karthik Dinakar, Joichi Ito, and Jonathan Zittrain. 2018. &lt;span&gt;“Interventions over Predictions: Reframing the Ethical Debate for Actuarial Risk Assessment.”&lt;/span&gt; In &lt;em&gt;&lt;span&gt;FAT&lt;/span&gt;&lt;/em&gt;, 81:62–76. Proceedings of Machine Learning Research. &lt;span&gt;PMLR&lt;/span&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-benjamin2019race&#34; class=&#34;csl-entry&#34;&gt;
+Benjamin, Ruha. 2019. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Race After Technology: Abolitionist Tools for the New Jim Code&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Social Forces&lt;/em&gt;, December. &lt;a href=&#34;https://doi.org/10.1093/sf/soz162&#34;&gt;https://doi.org/10.1093/sf/soz162&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-beutel2019practices&#34; class=&#34;csl-entry&#34;&gt;
+Beutel, Alex, Jilin Chen, Tulsee Doshi, Hai Qian, Allison Woodruff, Christine Luu, Pierre Kreitmann, Jonathan Bischof, and Ed H. Chi. 2019. &lt;span&gt;“Putting Fairness Principles into Practice: Challenges, Metrics, and Improvements.”&lt;/span&gt; In &lt;em&gt;Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society&lt;/em&gt;, 453–59. AIES ’19. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3306618.3314234&#34;&gt;https://doi.org/10.1145/3306618.3314234&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-costanza2020design&#34; class=&#34;csl-entry&#34;&gt;
+Costanza-Chock, S. 2020. &lt;em&gt;Design Justice: Community-Led Practices to Build the Worlds We Need&lt;/em&gt;. Information Policy. MIT Press.
+&lt;/div&gt;
+&lt;div id=&#34;ref-kleindignazio2020df&#34; class=&#34;csl-entry&#34;&gt;
+D’Ignazio, Catherine, and Lauren F. Klein. 2020. &lt;em&gt;Data Feminism&lt;/em&gt;. MIT Press.
+&lt;/div&gt;
+&lt;div id=&#34;ref-eubanks2018&#34; class=&#34;csl-entry&#34;&gt;
+Eubanks, Virginia. 2018. &lt;em&gt;Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor&lt;/em&gt;. USA: St. Martin’s Press, Inc.
+&lt;/div&gt;
+&lt;div id=&#34;ref-Faraj2018WorkingAO&#34; class=&#34;csl-entry&#34;&gt;
+Faraj, Samer, Stella Pachidi, and Karla Sayegh. 2018. &lt;span&gt;“Working and Organizing in the Age of the Learning Algorithm.”&lt;/span&gt; &lt;em&gt;Inf. Organ.&lt;/em&gt; 28: 62–70.
+&lt;/div&gt;
+&lt;div id=&#34;ref-greenchen2019loop&#34; class=&#34;csl-entry&#34;&gt;
+Green, Ben, and Yiling Chen. 2019a. &lt;span&gt;“Disparate Interactions: An Algorithm-in-the-Loop Analysis of Fairness in Risk Assessments.”&lt;/span&gt; In &lt;em&gt;Proceedings of the Conference on Fairness, Accountability, and Transparency&lt;/em&gt;, 90–99. FAT* ’19. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3287560.3287563&#34;&gt;https://doi.org/10.1145/3287560.3287563&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-greenchen2019algolooplimits&#34; class=&#34;csl-entry&#34;&gt;
+———. 2019b. &lt;span&gt;“The Principles and Limits of Algorithm-in-the-Loop Decision Making.”&lt;/span&gt; &lt;em&gt;Proc. ACM Hum.-Comput. Interact.&lt;/em&gt; 3 (CSCW). &lt;a href=&#34;https://doi.org/10.1145/3359152&#34;&gt;https://doi.org/10.1145/3359152&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-greene2019better&#34; class=&#34;csl-entry&#34;&gt;
+Greene, Daniel, Anna Lauren Hoffman, and Luke Stark. 2019. &lt;span&gt;“Better, Nicer, Clearer, Fairer.”&lt;/span&gt; In &lt;em&gt;&lt;span&gt;FAT&lt;/span&gt;&lt;/em&gt;, 2122–31. Proceedings of the 52nd Hawaii International Conference on System Sciences (HICSS).
+&lt;/div&gt;
+&lt;div id=&#34;ref-madaio2020co-designing&#34; class=&#34;csl-entry&#34;&gt;
+Madaio, Michael, Luke Stark, Jennifer Wortman Vaughan, and Hanna Wallach. 2020. &lt;span&gt;“Co-Designing Checklists to Understand Organizational Challenges and Opportunities Around Fairness in AI.”&lt;/span&gt; In &lt;em&gt;CHI Conference on Human Factors in Computing Systems&lt;/em&gt;. ACM.
+&lt;/div&gt;
+&lt;div id=&#34;ref-martin2020participatory&#34; class=&#34;csl-entry&#34;&gt;
+Martin Jr., D., V. Prabhakaran, J. Kuhlberg, A. Smart, and W. S. &amp;amp; Issac. 2020. &lt;span&gt;“Participatory Problem Formulation for Fairer Machine Learning Through Community Based System Dynamics.”&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-mossmetcalf2019tech&#34; class=&#34;csl-entry&#34;&gt;
+Metcalf, Jacob, and Emanuel Moss. 2019. &lt;span&gt;“The Ethical Dilemma at the Heart of Big Tech Companies.”&lt;/span&gt; &lt;em&gt;Harvard Business Review&lt;/em&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-winner1980artifacts&#34; class=&#34;csl-entry&#34;&gt;
+Winner, Langdon. 1980. &lt;span&gt;“Do Artifacts Have Politics?”&lt;/span&gt; &lt;em&gt;Daedalus&lt;/em&gt; 109 (1): 121–36.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://jmenter-93.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://jmenter-93.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://jmenter-93.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://jmenter-93.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://jmenter-93.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://jmenter-93.github.io/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jmenter-93.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
