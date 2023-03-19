@@ -170,6 +170,17 @@ Winner, Langdon. 1980. &lt;span&gt;“Do Artifacts Have Politics?”&lt;/span&gt
     </item>
     
     <item>
+      <title>The Validity of Counterfactual Reasoning for Fair Prediction with Imperfect Models</title>
+      <link>https://jmenter-93.github.io/project/ms-counterfactuals/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/project/ms-counterfactuals/</guid>
+      <description>&lt;p&gt;Advisor:  Dr. David Jensen (University of Massachusetts, Amherst)&lt;/p&gt;
+&lt;p&gt;Existing work on machine learning for fair prediction has leveraged causal reasoning to account for the counterfactual nature of societal discrimination. Methods that leverage this reasoning require information about the true data-generating process (DGP). However, the true DGP is often subject to mechanisms of model misspecification, including latent confounding, measurement error, and selection bias, all potentially resulting from societal discrimination. When is the validity of counterfactual reasoning for fairness impacted by these mechanisms? To articulate an answer, we describe distributional parities that must hold in training data in order for Y hat to be counterfactually fair, regardless of the algorithm or estimator used to train Y hat. Using the syntax of graphical models and d-separation, we describe the structures of model misspecification that (do not) threaten these requirements. We note that well-documented societal biases in observed data can result in model misspecifications that cause Yˆ to violate counterfactual fairness. Empirically, we use a real dataset to investigate the impact of these forms of model misspecification on the task of fair prediction.&lt;/p&gt;
+&lt;p&gt;See our white paper &lt;a href=&#34;./Menter_cf_validity_v1.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Slides</title>
       <link>https://jmenter-93.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -295,24 +306,14 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Project</title>
-      <link>https://jmenter-93.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jmenter-93.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Modeling Internet Traffic Generation for Telecommunication Applications</title>
+      <link>https://jmenter-93.github.io/project/undergrad-stats/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://jmenter-93.github.io/project/undergrad-stats/</guid>
+      <description>&lt;p&gt;With: Sara Stoudt, Pamela Badian-Pessot, Vera Bao, Erika Earley, Yadira Flores, Liza Maharjan, Blanche Ngo Mahop, Van Nguyen, Laura Rosenbauer, Danielle Williams, and Weijia Zhang. Part of the Industrial Careers in Mathematical Sciences Program (PIC Math).&lt;/p&gt;
+&lt;p&gt;Advisors: Dr. Nessy Tania (Smith College) &amp;amp; Dr. Veena Mendiratta (Bell Labs)&lt;/p&gt;
+&lt;p&gt;The goal of this project was to develop a stochastic model that could predict and simulate traffic load on an internet network. The model takes as input number of users and proportion of internet application being used at a given time - namely web surfing, video streaming, online gaming - and outputs simulated traffic data. Using individual user data, we produced models for web surfing, video streaming, and gaming which were combined to form the simulator. The first method fit known theoretical distributions to the data to simulate individual packets; the second used an empirical copula to simulate packets per second. Read our paper &lt;a href=&#34;http://www.ajuronline.org/uploads/Volume_13_3/AJUR%20Vol%2013%20Issue%203%2008.25.16%20with%20covers%20interactive.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://jmenter-93.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jmenter-93.github.io/project/external-project/</guid>
-      <description></description>
     </item>
     
     <item>
